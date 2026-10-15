@@ -1,0 +1,422 @@
+# ─── Oracle Companies to Monitor ──────────────────────────────────────────
+companies:
+  - name: "JPMorgan Chase"
+    api_base: "https://jpmc.fa.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    base_url: "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001"
+    site_number: "CX_1001"
+    # Optional: override limit per request
+    # limit_per_request: 50
+
+  - name: "Oracle"
+    api_base: "https://eeho.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    base_url: "https://careers.oracle.com/en/sites/jobsearch"
+    site_number: "CX_45001"
+
+  - name: "EXL"
+    api_base: "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    base_url: "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2"
+    site_number: "CX_2"
+
+  - name: "Dell"
+    api_base: "https://iawmqy.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    base_url: "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001"
+    site_number: "CX_1001"
+
+  - name: "Black Box"
+    api_base: "https://eoje.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    base_url: "https://eoje.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001"
+    site_number: "CX_1001"
+
+  - name: "IbsSoftware"
+    api_base: "https://fa-etbm-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    base_url: "https://fa-etbm-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1"
+    site_number: "CX_1"
+
+  - name: "FirstBank"
+    api_base: "https://hdbc.fa.em2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    base_url: "https://hdbc.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX"
+    site_number: "CX"
+
+  - name: "Goldmansachs"
+    api_base: "https://hdpc.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    base_url: "https://hdpc.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001"
+    site_number: "CX_3001"
+
+
+  - name: "AutoZone"
+    api_base: "https://egud.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    base_url: "https://careers.autozone.com/hcmUI/CandidateExperience/en/sites/CX_1"
+    site_number: "CX_1"
+
+  - name: "American Express"
+    api_base: "https://egug.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    base_url: "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1"
+    site_number: "CX_1"
+
+  - name: "Akami"
+    api_base: "https://fa-extu-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    base_url: "https://fa-extu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1"
+    site_number: "CX_1"
+
+  - name: "KPMG"
+    api_base: "https://ejgk.fa.em2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    base_url: "https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3"
+    site_number: "CX_3"
+
+  - name: "eClerx"
+    api_base: "https://fa-ewji-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    base_url: "https://fa-ewji-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1"
+    site_number: "CX_1"
+
+  - name: "Zensar"
+    api_base: "https://fa-etvl-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    base_url: "https://fa-etvl-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1"
+    site_number: "CX_1"
+
+  - name: "Texas Instrunments"
+    api_base: "https://edbz.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    base_url: "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX"
+    site_number: "CX"
+
+  - name: "Verisk"
+    api_base: "https://fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    base_url: "https://fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1"
+    site_number: "CX_1"
+
+  - name: "Emerson"
+    api_base: "https://hdjq.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    base_url: "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1"
+    site_number: "CX_1"    
+
+
+  - name: "DTCC"
+    api_base: "https://ebxr.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    base_url: "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1"
+    site_number: "CX_1"
+
+  - name: "WOOD"
+    api_base: "https://ehif.fa.em2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    base_url: "https://ehif.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1"
+    site_number: "CX_1"
+
+  - name: "Ford Motor Company"
+    api_base: "https://efds.fa.em5.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    base_url: "https://efds.fa.em5.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1"
+    site_number: "CX_1"
+
+  - name: "Cyncly"
+    api_base: "https://fa-ewdg-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    base_url: "https://fa-ewdg-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1"
+    site_number: "CX_1"
+
+  - name: "TEJAS"
+    api_base: "https://iablcp.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    base_url: "https://iablcp.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1"
+    site_number: "CX_1"
+
+  - name: "CSC"
+    api_base: "https://hczw.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    base_url: "https://hczw.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001"
+    site_number: "CX_1001"
+
+  - name: "Harmonic "
+    api_base: "https://egmn.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    base_url: "https://egmn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1"
+    site_number: "CX_1"
+
+  - name: "Diebold"
+    api_base: "https://eeug.fa.us6.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    base_url: "https://eeug.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX"
+    site_number: "CX"
+
+  - name: "Nokia"
+    api_base: "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    base_url: "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1"
+    site_number: "CX_1"
+
+
+  - name: "Argano"
+    api_base: "https://fa-eyau-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    base_url: "https://fa-eyau-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1"
+    site_number: "CX_1"
+
+  - name: "Dp World"
+    api_base: "https://ehpv.fa.em2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    base_url: "https://ehpv.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1"
+    site_number: "CX_1"
+
+  - name: "Juniper"
+    api_base: "https://ejif.fa.us6.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    base_url: "https://ejif.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1"
+    site_number: "CX_1"
+
+  - name: "The Hackett Group"
+    api_base: "https://eeih.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    base_url: "https://eeih.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6"
+    site_number: "CX_6"   
+
+  - name: "Datavali"
+    api_base: "https://eifn.fa.us6.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    base_url: "https://eifn.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001"
+    site_number: "CX_3001"
+
+  - name: "IDFC"
+    api_base: "https://ekjx.fa.em2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    base_url: "https://ekjx.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1"
+    site_number: "CX_1"  
+
+  - name: "WESCO"
+    api_base: "https://eklm.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    base_url: "https://eklm.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX"
+    site_number: "CX"
+
+  - name: "MOUSER"
+    api_base: "https://eabw.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    base_url: "https://eabw.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1"
+    site_number: "CX_1"
+
+  - name: "TATA Tle"
+    api_base: "https://fa-evmm-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    base_url: "https://fa-evmm-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1"
+    site_number: "CX_1"
+
+  - name: "Bristlecone"
+    api_base: "https://iaagiz.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    base_url: "https://iaagiz.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/bristlecone-careers"
+    site_number: "bristlecone-careers"
+
+
+  - name: "HILL"
+    api_base: "https://hcib.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    base_url: "https://hcib.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001"
+    site_number: "CX_1001"
+
+
+  - name: "Fanatics"
+    api_base: "https://fa-exki-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    base_url: "https://fa-exki-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1"
+    site_number: "CX_1"
+
+  - name: "Coherent"
+    api_base: "https://hcwp.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    base_url: "https://hcwp.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_8001"
+    site_number: "CX_8001"
+
+  - name: "TEN"
+    api_base: "https://hcxg.fa.em2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    base_url: "https://hcxg.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1"
+    site_number: "CX_1"
+
+  - name: "NOY"
+    api_base: "https://egay.fa.us6.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    base_url: "https://egay.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_4001"
+    site_number: "CX_4001"
+  # - name: "Oracle"
+  #   api_base: "https://eeho.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+  #   base_url: "https://careers.oracle.com/en/sites/jobsearch"
+  #   site_number: "CX_45001"    
+
+  # Add more Oracle HCM companies
+  # - name: "Another Company"
+  #   api_base: "https://xxx.fa.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+  #   base_url: "https://xxx.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_XXXX"
+  #   site_number: "CX_XXXX"
+
+# ─── Smart Job Filters ──────────────────────────────────────────────────────
+filters:
+  experience_levels:
+    - "Fresher"
+    - "Junior"
+  technology_groups:
+    - ["C++", "C", "Java"]
+  max_days_old: 5
+  min_confidence_score: 70
+
+# ─── Scraper Settings ──────────────────────────────────────────────────────
+scraper:
+  jobs_to_fetch: 40                 # How many jobs to retrieve per company (latest)
+  limit_per_request: 200            # Max 200 (Oracle HCM limit)
+  max_pages_per_company: 2          # Safety cap (will fetch until jobs_to_fetch reached)
+  request_timeout_seconds: 30
+  delay_between_pages: 1
+  delay_between_companies: 2
+  enable_prefilter: true
+  pre_filters:
+    - field: location
+      operator: contains_any
+      values: ["India", "Remote", "Hybrid", "Onsite", "Bengaluru", "Hyderabad", "Chennai", "Mumbai", "Delhi NCR", "Pune", "Kolkata", "Ahmedabad", "Kochi", "Thiruvananthapuram", "Coimbatore", "Indore", "Jaipur", "Bhubaneswar", "Warangal", "Nagpur", "Udaipur"]
+    - field: title
+      operator: contains_any
+      values: ["Software", "Java", "C++", "SDE", "SWE", "AMTS", "MTS"]
+    - field: title
+      operator: contains_none
+      values:
+        - "Senior"
+        - "Sr"
+        - "Lead"
+        - "Manager"
+        - "Principal"
+        - "Staff"
+        - "Architect"
+        - "Director"
+        - "VP"
+        - "Head"
+        - "Chief"
+        - "Executive"
+        - "Fellow"
+        - "Distinguished"
+        - "President"
+        - "Chairman"
+        - "Board"
+        - "Trustee"
+        - "Partner"
+        - "Founder"
+        - "Accountant"
+        - "Accounting"
+        - "Auditor"
+        - "Tax"
+        - "Finance"
+        - "Financial"
+        - "Legal"
+        - "Counsel"
+        - "Attorney"
+        - "HR"
+        - "Human Resources"
+        - "Recruiting"
+        - "Recruitment"
+        - "Talent"
+        - "People"
+        - "Business"
+        - "Operations"
+        - "Strategy"
+        - "Marketing"
+        - "Sales"
+        - "Account Executive"
+        - "Customer Success"
+        - "Support"
+        - "Help Desk"
+        - "Technical Support"
+        - "Customer Service"
+        - "Client Services"
+        - "Account"
+        - "Office"
+        - "IT"
+        - "Infrastructure"
+        - "Network"
+        - "Security"
+        - "Cyber"
+        - "Cybersecurity"
+        - "SysAdmin"
+        - "System Admin"
+        - "DBA"
+        - "Database"
+        - "Analytics"
+        - "Big Data"
+        - "Hadoop"
+        - "Spark"
+        - "Kafka"
+        - "Data Engineer"
+        - "ETL"
+        - "BI"
+        - "Business"
+        - "Intelligence"
+        - "Agentic"
+        - "Analyst"
+        - "Consultant"
+        - "Specialist"
+        - "Advisor"
+        - "Coordinator"
+        - "Administrative"
+        - "Assistant"
+        - "Secretary"
+        - "Clerk"
+        - "Admin"
+        - "Reception"
+        - "Compliance"
+        - "Audit"
+        - "Risk"
+        - "DevOps"
+        - "SRE"
+        - "Reliability"
+        - "Android"
+        - "iOS"
+        - "Mobile"
+        - "Frontend"
+        - "Front-end"
+        - "UX"
+        - "UI"
+        - "Designer"
+        - "QA"
+        - "Testing"
+        - "Test"
+        - "Embedded"
+        - "Firmware"
+        - "Hardware"
+        - "Data Scientist"
+        - "Machine Learning"
+        - "ML"
+        - "AI"
+        - "NLP"
+        - "Computer Vision"
+        - "Robotics"
+        - "PMTS"
+        - "SMTS"
+        - "LMTS"
+        - "Management"
+        - "Leadership"
+        - "Scrum"
+        - "Agile"
+        - "Expert"
+        - "Experienced"
+        - "Professional"
+        - "SME"
+        - "III"
+        - "IV"
+        - "V"
+        - "VI"
+        - "VII"
+        - "VIII"
+        - "IX"
+        - "X"
+        - "XI"
+        - "XII"
+        - "XIII"
+        - "XIV"
+        - "XV"
+        - "3"
+        - "4"
+        - "5"
+        - "6"
+        - "7"
+
+# ─── Scheduler Settings ──────────────────────────────────────────────────────
+scheduler:
+  interval_minutes: 30
+  run_on_startup: true
+  max_instances: 1
+
+# ─── Notifications ───────────────────────────────────────────────────────────
+notifications:
+  telegram:
+    enabled: true
+  email:
+    enabled: false
+    smtp_server: "smtp.gmail.com"
+    smtp_port: 587
+    sender_email: "your_email@gmail.com"
+    recipient_email: "recipient@gmail.com"
+
+# ─── AI Settings (optional) ─────────────────────────────────────────────────
+ai:
+  enabled: false
+  model: "gemma3:4b"
+  base_url: "http://localhost:11434"
+  timeout_seconds: 400
+
+# ─── Logging ─────────────────────────────────────────────────────────────────
+logging:
+  level: "INFO"
+  log_to_file: true
+  log_file: "logs/notifier.log"
+  rotate_size: "10 MB"
+  keep_days: 7
